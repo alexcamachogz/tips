@@ -46,12 +46,12 @@ Segues are visual connectors between view controllers in the storyboards, shown 
 
 ```Swift
 override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-  if segue.identifier == "goToResult" {
-      let destinationVC = segue.destination as! ResultViewController
-      destinationVC.bmiValue = calculatorBrain.getBMIValue()
-      destinationVC.bmiAdvice = calculatorBrain.getAdvice()
-      destinationVC.bmiColor = calculatorBrain.getColor()
-  }
+    if segue.identifier == "goToResult" {
+        let destination = segue.destination as! ResultsViewController
+        destination.people = splitNumberLabel.text!
+        destination.percent = String(percentage * 100)
+        destination.total = finalResult
+    }
 }
 ```
 
