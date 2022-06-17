@@ -1,6 +1,6 @@
 <h1 align="center">Tips Calculator</h1>
 
-![tips](https://socialify.git.ci/alexcamachogz/tips/image?language=1&name=1&owner=1&pattern=Solid&theme=Dark)
+![tips-calculator](https://socialify.git.ci/alexcamachogz/tips/image?language=1&name=1&owner=1&pattern=Solid&theme=Dark)
 
 <p align="center">Tip calculator, forget about struggling to know how much each person has to pay and enjoy dinner with your friends.</p>
 
